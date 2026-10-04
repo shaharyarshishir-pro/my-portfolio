@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Documents | Liberation War Archive</title>
+    <meta name="description" content="Browse and filter historical documents from the 1971 Liberation War of Bangladesh.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <a class="portfolio-bar" href="../index.html#projects">&larr; Back to portfolio</a>
+
+    <!-- =============navStart====== -->
+        <header>
+    <nav class="navbar navbar-expand-lg archive-navbar navbar-dark">
+        <div class="container">
+
+            
+            <a class="navbar-brand archive-logo" href="index.html">
+                Liberation War <span>Archive</span>
+            </a>
+
+            
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="documents.html">Documents</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="interview.html">Interviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="photographs.html">Photographs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link contact-btn" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+        <!-- ==========navEnd========= -->
+
+        <!-- ========bannerstart========= -->
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/b-1.jpg" class="d-block w-100" alt="Historical photograph from the Liberation War, slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/b-2.jpg" class="d-block w-100" alt="Historical photograph from the Liberation War, slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/b-3.jpg" class="d-block w-100" alt="Historical photograph from the Liberation War, slide 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- ========bannerEnd===== -->
+
+<section class="document-header">
+    <div class="container text-center">
+
+        <h1>Historical Documents</h1>
+
+        <p>
+            Explore important historical documents and records
+            related to the Liberation War of 1971.
+        </p>
+
+    </div>
+</section>
+
+
+<!-- ===DocumentCat=== -->
+<section class="documents-section">
+
+    <div class="container">
+
+        <!-- ===Filter=== -->
+        <div class="document-filter">
+
+            <h2>Document Catalog</h2>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <label for="filterType">Document Type</label>
+                    <select class="form-select" id="filterType">
+                        <option value="all">All Types</option>
+                        <option value="declaration">Declaration</option>
+                        <option value="official">Official Document</option>
+                        <option value="correspondence">Correspondence</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <label for="filterDate">Date</label>
+                    <select class="form-select" id="filterDate">
+                        <option value="all">All Dates</option>
+                        <option value="1971">1971</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <label for="filterRelevance">Relevance</label>
+                    <select class="form-select" id="filterRelevance">
+                        <option value="all">All Documents</option>
+                        <option value="high">Highly Relevant</option>
+                        <option value="general">General Reference</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ===Documents==== -->
+        <div class="row" id="documentList">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 doc-item"
+                 data-type="declaration" data-year="1971" data-relevance="high">
+                <div class="document-card">
+                    <h3>Declaration of Independence</h3>
+                    <p class="document-type">Type: Declaration</p>
+                    <p>
+                        A historical document associated with the
+                        declaration of Bangladesh's independence in 1971.
+                    </p>
+                    <p><strong>Publication Date:</strong> 1971</p>
+                    <p><strong>Source:</strong> Historical Archive</p>
+                    <button type="button" class="btn document-btn"
+                            data-doc-title="Declaration of Independence"
+                            data-doc-meta="Declaration &middot; 1971"
+                            data-doc-text="Bangladesh declared its independence in March 1971. A formal Proclamation of Independence was later issued in April 1971 by the provisional government at Mujibnagar, setting out the reasons for the struggle and the principles of the new state.">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 doc-item"
+                 data-type="official" data-year="1971" data-relevance="high">
+                <div class="document-card">
+                    <h3>Instrument of Surrender</h3>
+                    <p class="document-type">Type: Official Document</p>
+                    <p>
+                        A significant historical record connected with the
+                        formal conclusion of the Liberation War.
+                    </p>
+                    <p><strong>Publication Date:</strong> 16 December 1971</p>
+                    <p><strong>Source:</strong> Historical Archive</p>
+                    <button type="button" class="btn document-btn"
+                            data-doc-title="Instrument of Surrender"
+                            data-doc-meta="Official Document &middot; 16 December 1971"
+                            data-doc-text="Signed in Dhaka on 16 December 1971, this document recorded the surrender of the Pakistan Eastern Command to the joint forces of Bangladesh and India, bringing the nine-month war to its formal end.">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 doc-item"
+                 data-type="correspondence" data-year="1971" data-relevance="general">
+                <div class="document-card">
+                    <h3>Official Correspondence</h3>
+                    <p class="document-type">Type: Correspondence</p>
+                    <p>
+                        Official communications that provide historical
+                        information about events during the Liberation War.
+                    </p>
+                    <p><strong>Publication Date:</strong> 1971</p>
+                    <p><strong>Source:</strong> Archival Collection</p>
+                    <button type="button" class="btn document-btn"
+                            data-doc-title="Official Correspondence"
+                            data-doc-meta="Correspondence &middot; 1971"
+                            data-doc-text="Letters, telegrams and official notes exchanged during 1971 help researchers follow how decisions were made and how events were reported at the time. Individual items will be added to the catalog as they are digitised.">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- shown when filters match nothing -->
+        <p class="empty-state d-none" id="docEmpty">
+            No documents match these filters yet. Try choosing "All" in one of the menus.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- Details popup -->
+<div class="modal fade" id="docModal" tabindex="-1" aria-labelledby="docModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="docModalTitle"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="doc-modal-meta" id="docModalMeta"></p>
+                <p id="docModalText"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn document-btn" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container text-center">
+    <div class="clock"></div>
+    <div>
+        &copy; All rights reserved by Bangladesh IT Institute
+    </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

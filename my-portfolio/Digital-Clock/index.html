@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Clock | Muzahidul Islam</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <a class="back-link" href="../index.html#projects">&larr; Back to portfolio</a>
+
+    <main class="clock-container">
+
+        <div class="clock-card">
+
+            <!-- TOP BAR -->
+
+            <div class="top-bar">
+
+                <div class="brand">
+                    <span class="brand-dot"></span>
+                    MUZAHIDUL ISLAM
+                </div>
+
+                <button
+                    id="themeToggle"
+                    class="icon-btn"
+                    aria-label="Toggle theme">
+
+                    🌙
+
+                </button>
+
+            </div>
+
+
+            <!-- TITLE -->
+
+            <div class="heading">
+
+                <p class="label">
+                    LIVE TIME
+                </p>
+
+                <h1>
+                    Digital Clock
+                </h1>
+
+                <p class="location">
+                    📍 Dhaka, Bangladesh
+                </p>
+
+            </div>
+
+
+            <!-- DATE -->
+
+            <div
+                class="date"
+                id="date">
+
+                Loading date...
+
+            </div>
+
+
+            <!-- TIME -->
+
+            <div
+                class="time"
+                id="time">
+
+                00:00:00
+
+            </div>
+
+
+            <!-- PERIOD -->
+
+            <div
+                class="period"
+                id="period">
+
+                AM
+
+            </div>
+
+
+            <!-- CONTROLS -->
+
+            <div class="controls">
+
+                <button
+                    id="formatToggle"
+                    class="control-btn">
+
+                    24 Hour
+
+                </button>
+
+            </div>
+
+
+            <!-- FOOTER -->
+
+            <div class="clock-footer">
+
+                <span>
+
+                    <span class="status-dot"></span>
+
+                    Live Time
+
+                </span>
+
+                <span id="timezone">
+                    Asia/Dhaka
+                </span>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

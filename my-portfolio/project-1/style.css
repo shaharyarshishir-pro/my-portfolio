@@ -1,0 +1,923 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f5ef;
+    color: #222;
+}
+
+
+/* =====navbar== */
+
+.archive-navbar {
+    background-color: #020c08;
+    padding: 14px 0;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+.navbar .navbar-toggler{
+    border: 2px solid rgb(167, 50, 50);
+}
+
+/* ==Logo=== */
+
+.archive-logo {
+    color: #ffffff !important;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.archive-logo span {
+    color: #c73535;
+}
+
+
+/* ===Navigation Links ===*/
+
+.archive-navbar .nav-link {
+    color: #eeeeee !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 12px;
+    padding: 8px 12px !important;
+    transition: 0.3s ease;
+}
+
+
+/* ===Hover Effect=== */
+
+.archive-navbar .nav-link:hover {
+    color: #c03030 !important;
+}
+
+
+/* ===Active Link=== */
+
+.archive-navbar .nav-link.active {
+    color: #b12929 !important;
+    font-weight: 700;
+}
+
+
+/* ===ContactButto=== */
+
+.contact-btn {
+    
+    border-radius: 5px;
+    margin-left: 18px !important;
+}
+
+.contact-btn:hover {
+    background-color: #fcfcfc;
+    color: #12372a !important;
+}
+
+
+
+
+.navbar-toggler {
+    border-color: #d4373f;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+
+
+/* ===Caption=== */
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+
+
+
+
+/* ===Paragraph=== */
+
+.archive-carousel .carousel-caption p {
+    font-size: 19px;
+    line-height: 1.6;
+
+    color: #f1f1f1;
+
+    margin-bottom: 25px;
+}
+
+
+/* ===Button=== */
+
+.archive-btn {
+    background-color: #d4af37;
+    color: #12372a;
+
+    font-weight: 600;
+
+    padding: 11px 25px;
+
+    border-radius: 5px;
+
+    border: 2px solid #d4af37;
+
+    transition: all 0.3s ease;
+}
+
+
+.archive-btn:hover {
+    background-color: transparent;
+    color: #ffffff;
+
+    border-color: #d4af37;
+}
+
+
+/* ==Indicators=== */
+
+.archive-carousel .carousel-indicators button {
+    width: 35px;
+    height: 4px;
+
+    margin: 0 5px;
+
+    border: none;
+}
+
+
+/* ==Controls=== */
+
+.archive-carousel .carousel-control-prev,
+.archive-carousel .carousel-control-next {
+    width: 7%;
+}
+
+
+
+
+/* ===Footer=== */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 25px 0;
+    border-top: 3px solid #e00000;
+}
+
+
+
+
+/* ===Copyright=== */
+.copyright {
+    color: #fff;
+    font-size: 14px;
+}
+
+.copyright::first-letter {
+    color: #e00000;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.clock {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* ===intro==== */
+
+.intro-section {
+    padding: 70px 0;
+    background-color: #fff;
+}
+
+
+/* ===Image=== */
+
+.intro-image {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ===Content=== */
+
+.intro-content {
+    padding: 20px 30px;
+}
+
+.intro-content h2 {
+    color: #12372a;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-left: 5px solid #e00000;
+    padding-left: 12px;
+}
+
+.intro-content p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+/* ===Button=== */
+
+.intro-btn {
+    background-color: #12372a;
+    color: #fff;
+    padding: 10px 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.intro-btn:hover {
+    background-color: #e00000;
+    color: #fff;
+}
+
+
+
+
+/* ===Significant Section=== */
+.significant-section {
+    padding: 70px 0;
+    background-color: #f7f5ef;
+}
+
+.significant-content {
+    padding: 20px 30px;
+}
+
+.significant-content h2 {
+    color: #12372a;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-left: 5px solid #e00000;
+    padding-left: 12px;
+}
+
+.significant-content p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.significant-btn {
+    background-color: #12372a;
+    color: white;
+    padding: 10px 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.significant-btn:hover {
+    background-color: #e00000;
+    color: white;
+}
+
+.significant-image {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.significant-image img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+/* ==Featured Section=== */
+.featured-section {
+    padding: 70px 0;
+    background-color: #fff;
+}
+
+.featured-title {
+    margin-bottom: 40px;
+}
+
+.featured-title h2 {
+    color: #12372a;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.featured-title p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* ===Featured Card=== */
+.featured-card {
+    height: 100%;
+    padding: 30px;
+    background-color: #f7f5ef;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.featured-card h3 {
+    color: #12372a;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.featured-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.featured-btn {
+    background-color: #12372a;
+    color: #fff;
+    padding: 9px 18px;
+    border-radius: 5px;
+}
+
+.featured-btn:hover {
+    background-color: #e00000;
+    color: #fff;
+}
+
+
+
+
+/* ===Document Header=== */
+
+.document-header {
+    background-color: #12372a;
+    color: white;
+    padding: 60px 0;
+}
+
+.document-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.document-header p {
+    font-size: 17px;
+    margin: 0;
+}
+
+
+/* ===Documents Section=== */
+
+.documents-section {
+    padding: 70px 0;
+    background-color: #f7f5ef;
+}
+
+
+/* ==Filter=== */
+
+.document-filter {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.document-filter h2 {
+    color: #12372a;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.document-filter label {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+/* ===Document Card=== */
+
+.document-card {
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.document-card h3 {
+    color: #12372a;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.document-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.document-card .document-type {
+    color: #e00000;
+    font-weight: 600;
+}
+
+.document-btn {
+    background-color: #12372a;
+    color: white;
+    padding: 9px 18px;
+    margin-top: 10px;
+}
+
+.document-btn:hover {
+    background-color: #e00000;
+    color: white;
+}
+
+/* ===Interview Header=== */
+
+.interview-header {
+    background-color: #12372a;
+    color: white;
+    padding: 60px 0;
+}
+
+.interview-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.interview-header p {
+    font-size: 17px;
+    margin: 0;
+}
+
+
+/* ==Interviews Section=== */
+
+.interviews-section {
+    padding: 70px 0;
+    background-color: #f7f5ef;
+}
+
+
+/* ==Section Title=== */
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: #12372a;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #666;
+    font-size: 16px;
+}
+
+
+/* ===Interview Card=== */
+
+.interview-card {
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+/* ===YouTube Video=== */
+
+.video-box {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* ==Interview Content=== */
+
+.interview-content {
+    padding: 25px;
+}
+
+.interview-content h3 {
+    color: #12372a;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.interview-content h4 {
+    color: #12372a;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.interview-content p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.interview-role {
+    color: #e00000 !important;
+    font-weight: 600;
+}
+
+/* ===Photograph Header=== */
+
+.photo-header {
+    background-color: #12372a;
+    color: white;
+    padding: 60px 0;
+}
+
+.photo-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.photo-header p {
+    font-size: 17px;
+    margin: 0;
+}
+
+
+/* ==Photo Section== */
+
+.photo-section {
+    padding: 70px 0;
+    background-color: #f7f5ef;
+}
+
+
+/* ==Title== */
+
+.photo-title {
+    margin-bottom: 30px;
+}
+
+.photo-title h2 {
+    color: #12372a;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.photo-title p {
+    color: #666;
+}
+
+
+/* ==Categories== */
+
+.photo-category {
+    margin-bottom: 40px;
+}
+
+.category-btn {
+    background-color: #12372a;
+    color: white;
+    margin: 5px;
+    padding: 8px 18px;
+}
+
+.category-btn:hover {
+    background-color: #e00000;
+    color: white;
+}
+
+
+/* ==Photo Card=== */
+
+.photo-card {
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.photo-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ===Photo Content=== */
+
+.photo-content {
+    padding: 20px;
+}
+
+.photo-content h3 {
+    color: #12372a;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.photo-content p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* ==Buttons== */
+
+.photo-buttons {
+    margin-top: 15px;
+}
+
+.view-btn {
+    background-color: #12372a;
+    color: white;
+    margin-right: 5px;
+}
+
+.view-btn:hover {
+    background-color: #e00000;
+    color: white;
+}
+
+.download-btn {
+    border: 1px solid #12372a;
+    color: #12372a;
+}
+
+.download-btn:hover {
+    background-color: #12372a;
+    color: white;
+}
+
+/* ===ContactHead=== */
+
+.contact-header {
+    background-color: #12372a;
+    color: white;
+    padding: 60px 0;
+}
+
+.contact-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-header p {
+    font-size: 17px;
+    margin: 0;
+}
+
+
+/* ===ContactSec=== */
+
+.contact-section {
+    padding: 70px 0;
+    background-color: #f7f5ef;
+}
+
+
+/* ===ContactForm=== */
+
+.contact-form {
+    background-color: white;
+    padding: 35px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.contact-form h2 {
+    color: #12372a;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.contact-form .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-form .form-control:focus {
+    border-color: #12372a;
+    box-shadow: none;
+}
+
+.contact-submit {
+    background-color: #12372a;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.contact-submit:hover {
+    background-color: #e00000;
+    color: white;
+}
+
+
+/* ===ContactInfo===*/
+
+.contact-info {
+    background-color: white;
+    padding: 35px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    height: 100%;
+}
+
+.contact-info h2 {
+    color: #12372a;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-info > p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item h4 {
+    color: #12372a;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* ===mobile=== */
+
+@media (max-width: 768px) {
+
+    .contact-header {
+        padding: 50px 0;
+    }
+
+    .contact-header h1 {
+        font-size: 32px;
+    }
+
+    .contact-header p {
+        font-size: 15px;
+    }
+
+    .contact-section {
+        padding: 50px 0;
+    }
+
+    .contact-form,
+    .contact-info {
+        padding: 25px;
+    }
+
+    .contact-form h2,
+    .contact-info h2 {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .contact-header h1 {
+        font-size: 28px;
+    }
+
+    .contact-form,
+    .contact-info {
+        padding: 20px;
+    }
+}
+
+
+
+/* ===== Back to portfolio strip ===== */
+
+.portfolio-bar {
+    display: block;
+    padding: 7px 16px;
+    background: #000;
+    color: #c9d1cc;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.portfolio-bar:hover {
+    color: #fff;
+}
+
+
+/* ===== Active nav link ===== */
+
+.archive-navbar .nav-link.active {
+    color: #ffffff;
+    border-bottom: 2px solid #a73232;
+}
+
+
+/* ===== Photograph category buttons: active state ===== */
+
+.category-btn.active {
+    background-color: #020c08;
+    color: #fff;
+    border-color: #020c08;
+}
+
+
+/* ===== Empty state + details popup ===== */
+
+.empty-state {
+    padding: 40px 0;
+    text-align: center;
+    color: #6b6b6b;
+}
+
+.doc-modal-meta {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+}
+
+#docModal .modal-title {
+    font-weight: 700;
+}
+
+
+/* ===== Keyboard focus ===== */
+
+a:focus-visible,
+button:focus-visible,
+.form-control:focus-visible,
+.form-select:focus-visible {
+    outline: 3px solid #a73232;
+    outline-offset: 2px;
+}
